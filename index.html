@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pre-Order Crochet Flowers</title>
+</head>
+<body>
+
+    <h2>🌸 Pre-Order Crochet Flowers 🌸</h2>
+
+    <img src="https://tse1.mm.bing.net/th/id/OIP.-lzxsifm5ZAX-TJUZhYzzwHaJQ?cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Crochet tulip Flowers" width="300">
+    
+    <p>Handcrafted crochet flowers, made with soft and high-quality yarn. Perfect as gifts, home decor, or personal keepsakes. Customize your favorite colors and quantity. Order now and get a personalized touch!</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xgcBY_KpIRE?si=g0NDN2neGGFac4Gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <form action="#" method="post" autocomplete="on">
+        
+        <label for="message">Special Requests / Notes:</label><br>
+        <textarea id="message" name="message" 
+                  placeholder="Any specific instructions? (e.g., gift wrap, message card)" 
+                  maxlength="300" pattern=".{10,300}" 
+                  required></textarea><br><br>
+
+        <label for="color">Choose Flower Color:</label><br>
+        <select id="color" name="color" required>
+            <option value="" disabled selected>Select a color</option>
+            <option value="pink">Pink</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+        </select><br><br>
+
+        <label for="quantity">Quantity (1 to 20 pcs):</label><br>
+        <input type="number" id="quantity" name="quantity" 
+               min="1" max="20" value="1" required><br><br>
+
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" 
+               placeholder="Enter your full name" 
+               maxlength="50" autocomplete="name" 
+               required><br><br>
+
+        <button type="submit">Place Pre-Order</button>
+
+    </form>
+
+</body>
+</html>
